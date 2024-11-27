@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Workout Section</title>
+  <style>
+    body, h1, h2, p, button {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #f4f4f9;
+      color: #333;
+    }
+
+    /* Workout Section Styling */
+    #workout-section {
+      padding: 50px 20px;
+      background: linear-gradient(135deg, #403e3d, #060606);
+      color: #fff;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 40px;
+    }
+
+    .workout-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .card {
+      background: #fff;
+      color: #333;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      text-align: left;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+    }
+
+    .card h2 {
+      padding: 15px;
+      font-size: 1.5rem;
+      background-color: #ff6f61;
+      color: #fff;
+    }
+
+    .card p {
+      padding: 15px;
+      font-size: 1rem;
+    }
+
+    button.learn-more {
+      display: block;
+      margin: 15px auto;
+      padding: 10px 20px;
+      background: #ff6f61;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button.learn-more:hover {
+      background: #e64a19;
+    }
+    /* Testimonial Section Styling */
+#testimonial-section {
+  padding: 50px 20px;
+  background: #f4f4f9;
+  color: #333;
+  text-align: center;
+}
+
+#testimonial-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #ff6f61;
+}
+
+#testimonial-section p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.testimonial {
+  max-width: 300px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.testimonial:hover {
+  transform: translateY(-10px);
+}
+
+.testimonial img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.testimonial p {
+  font-size: 1rem;
+  font-style: italic;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.testimonial h3 {
+  font-size: 1rem;
+  color: #333;
+}
+
+  </style>
+</head>
+<body>
+  <section id="workout-section">
+    <div class="container">
+      <h1>Get Fit, Stay Healthy</h1>
+      <p>Join our workout programs designed for all levels.</p>
+      <div class="workout-cards">
+        <div class="card">
+          <h2>Cardio</h2>
+          <img src="/img/image2.avif" alt="Cardio">
+          <p>Boost your heart health with fun and engaging cardio exercises.</p>
+          <button class="learn-more" onclick="showDetails('Cardio')">Learn More</button>
+        </div>
+        <div class="card">
+          <h2>Strength</h2>
+          <img src="/img/image3.jpg" alt="Strength">
+          <p>Build muscle and strength with our expert-led programs.</p>
+          <button class="learn-more" onclick="showDetails('Strength')">Learn More</button>
+        </div>
+        <div class="card">
+          <h2>Yoga</h2>
+          <img src="/img/image6.jpg" alt="Yoga">
+          <p>Find your balance and improve flexibility with yoga sessions.</p>
+          <button class="learn-more" onclick="showDetails('Yoga')">Learn More</button>
+        </div>
+        <div class="card">
+          <h2>Physical Fitness</h2>
+          <img src="/img/image1.jpg" alt="Physical Fitness">
+          <p>Enhance your overall health with tailored fitness routines that boost your energy, improve endurance, and sculpt your physique.</p>
+          <button class="learn-more" onclick="showDetails('Physical Fitness')">Learn More</button>
+        </div>
+        <div class="card">
+          <h2>Weight Lifting</h2>
+          <img src="/img/image4.avif" alt="Weight Lifting">
+          <p>Master the art of lifting with our comprehensive guides that help you lift safely and effectively.</p>
+          <button class="learn-more" onclick="showDetails('Weight Lifting')">Learn More</button>
+        </div>
+    </div>
+  </section>
+  <section id="testimonial-section">
+    <div class="container">
+      <h1>What Our Clients Say</h1>
+      <p>Real stories from people who transformed their lives with us.</p>
+      <div class="testimonials">
+        <div class="testimonial">
+          <img src="/img/client1.png" alt="Client 1">
+          <p>"Joining this program was the best decision of my life. I'm healthier and happier!"</p>
+          <h3>- Ravi Singh</h3>
+        </div>
+        <div class="testimonial">
+          <img src="/img/client2.png" alt="Client 2">
+          <p>"The trainers are amazing! I've never felt more motivated to stay fit."</p>
+          <h3>- Deepa</h3>
+        </div>
+        <div class="testimonial">
+          <img src="/img/client3.png" alt="Client 3">
+          <p>"I achieved my fitness goals in just 3 months. Highly recommend!"</p>
+          <h3>- Yashika</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <script>
+    function showDetails(workoutType) {
+      alert(`Discover more about our ${workoutType} program!`);
+    }
+  </script>
+</body>
+</html>
