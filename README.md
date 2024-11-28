@@ -1,6 +1,7 @@
 # Fitness-Website
 This repository contains the complete source code for Natty Fitness, a user-focused fitness website aimed at promoting health and wellness through interactive features. The website provides sections for workouts, diet plans, mental wellness tips, user feedback, and account management, creating a comprehensive digital fitness platform.
 <br>
+
 Key Features:
 <br>
 Interactive Navigation Bar:
@@ -69,7 +70,7 @@ How to Use:
 <br>
 Clone the repository:
 <br>
-git clone (https://github.com/shivangichauhan100/Fitness-Website.git)
+git clone https://github.com/shivangichauhan100/Fitness-Website.git
 <br>
 Future Enhancements:
 <br>
@@ -77,7 +78,11 @@ Add user authentication for personalized dashboards.
 <br>
 Integrate real-time fitness tracking and progress analytics.
 <br>
+
 Include blog articles on fitness trends and tips.
+<br>
+
+
 
 
 
