@@ -28,9 +28,9 @@ Engaging tagline: "Transform your sweat into strength".
 
 Action buttons for exploration and a pause function for the background video.
 <br>
+
 Dynamic Video Banner:
 <br>
-
 A looping muted video background enhances user engagement.
 <br>
 
@@ -61,12 +61,15 @@ HTML Pages:
 <br>
 index.html: Home page with interactive sections and video banner.
 <br>
+
 workout.html: Dedicated page for workout guidance.
 <br>
+
 dietPlanForm.html: Form for personalized diet plans.
 <br>
 bulkinTipsPage.html and cuttingtipsPage.html: Tips for bulking and cutting phases.
 <br>
+
 calmMind.html: Mental wellness resources.
 <br>
 
@@ -92,7 +95,6 @@ Add user authentication for personalized dashboards.
 <br>
 Integrate real-time fitness tracking and progress analytics.
 <br>
-
 Include blog articles on fitness trends and tips.
 <br>
 
